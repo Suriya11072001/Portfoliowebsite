@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="logo">SURIYA S S</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <h1>Hi, I'm SURIYA S S</h1>
+      <h2>Data Scientist</h2>
+      <p>I build responsive, dynamic websites with modern web technologies.</p>
+
+      <div class="cta-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn secondary">Get in Touch</a>
+        <a href="https://drive.google.com/file/d/1nGI8MutMvEL2EJEEkXCyVDvn-9YwaCBq/view?usp=drive_link" class="btn" download>Download Resume</a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/suriya-s-s-95205423b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Suriya11072001" target="_blank">GitHub</a>
+        <a href="mailto:sssuriyamet2021@gmail.com" target="_blank">Email</a>
+        <a href="https://wa.me/916381558983" target="_blank">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="myimage.jpg" alt="SURIYA S S" class="profile-img">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <img src="myimage.jpg" alt="SURIYA S S" class="profile-img">
+    <h3>Data Scientist</h3>
+    <p>I’m an entry-level Data Scientist passionate about learning and turning data into actionable insights. I enjoy solving problems, exploring new tools and techniques, and applying them in real-world projects to sharpen my skills.</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="education-boxes">
+      <div class="edu-card">
+        <h3>Higher Secondary</h3>
+        <p>Meenam Park Matric.Hr.Sec.School, Mecheri</p>
+        <p>Completed: 2018</p>
+      </div>
+      <div class="edu-card">
+        <h3>Diploma in Metallurgy</h3>
+        <p>Sakthi Polytechnic College</p>
+        <p>Completed: 2021</p>
+      </div>
+      <div class="edu-card">
+        <h3>B.E. in Metallurgical Engineering</h3>
+        <p>LMN Engineering College</p>
+        <p>Completed: 2024</p>
+      </div>
+      <div class="edu-card">
+        <h3>Data Science Course</h3>
+        <p>Online / IITM Park Chennai</p>
+        <p>Completed: 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>Python</div>
+      <div>SQL</div>
+      <div>Data Visualization</div>
+      <div>Machine Learning</div>
+      <div>Deep Learning</div>
+      <div>NLP</div>
+      <div>Power BI</div>
+      <div>Tableau</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Redbus – Bus Data Scraper & Dashboard</h3>
+        <p>Developed a Selenium web scraper to extract bus route data from the Redbus site across multiple states. Stored it in SQL and visualized using Streamlit.</p>
+        <p><strong>Tech:</strong> Selenium, Python, Web Scraping, Streamlit, Data Filtering</p>
+        <a href="https://github.com/Suriya11072001/Redbus.git" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>CarDekho – Used Car Price Predictor</h3>
+        <p>Created a Decision Tree Regression model to predict used car prices. Preprocessed city-wise car data and deployed as a user-friendly app.</p>
+        <p><strong>Tech:</strong> Python, Streamlit, Data Preprocessing, EDA, Machine Learning, Feature Engineering</p>
+        <a href="https://github.com/Suriya11072001/cardekho.git" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>ChefMate: Restaurant Clustering & Cooking Guide Application</h3>
+        <p>Built a ML-powered app to cluster restaurants and suggest recipes. Includes a chatbot and interactive visualizations with Streamlit.</p>
+        <p><strong>Tech:</strong> Python, Streamlit, Clustering, Chatbot, AWS (S3, RDS, EC2)</p>
+        <a href="https://github.com/Suriya11072001/chefmate.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Let’s create something amazing together. Fill out the form below to get in touch!</p>
+    <form class="contact-form" action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SURIYA S S. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
